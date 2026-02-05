@@ -6,19 +6,19 @@ if setfpscap then
     setfpscap(1000000)
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Blox Community",
-        Text = "FPS Unlocked!",
+        Text = "فتح الفريمات",
         Duration = 5,
         Button1 = "Okay"
     })
-    warn("FPS Unlocked!")
+    warn("فتح الفريمات")
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Blox Community",
-        Text = "Your exploit does not support setfpscap.",
+        Text = "لا يدعم برنامج الاستغلال الخاص بك خاصية setfpscap.",
         Duration = 5,
         Button1 = "Okay"
     })
-    warn("Your exploit does not support setfpscap.")
+    warn("لا يدعم برنامج الاستغلال الخاص بك خاصية  setfpscap.")
 end
 
 local WindUI = (loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua")))();
@@ -49,57 +49,57 @@ Window:EditOpenButton({
 });
 local Tabs = {
     InfoTab = Window:Tab({
-        Title = "Information",
-        Icon = "info",
-        Desc = "Info Section"
+        Title = "معلومه",
+        Icon = "information",
+        Desc = "قسم المعلومات"
     }),
     MainDivider = Window:Divider(),
     MainTab = Window:Tab({
-        Title = "Farming",
+        Title = "فارم",
         Icon = "rocket",
-        Desc = "Main Section"
+        Desc = "القائمه الرئيسيه"
     }),
     OthersTab = Window:Tab({
-        Title = "Others",
+        Title = "اخرون",
         Icon = "crown",
-        Desc = "Farming Section"
+        Desc = "قسم الفارم"
     }),
     ItemsTab = Window:Tab({
-        Title = "Items",
+        Title = "اغراض",
         Icon = "box",
-        Desc = "Items Section"
+        Desc = "قسم الاغراض"
     }),
     SettingsTab = Window:Tab({
-        Title = "Settings",
+        Title = "الإعدادات",
         Icon = "settings",
-        Desc = "Settings Section"
+        Desc = "قسم الإعدادات"
     }),
     PlayerDivider = Window:Divider(),
     LocalPlayerTab = Window:Tab({
-        Title = "Player",
-        Icon = "user",
-        Desc = "Local Player Section"
+      Title = "اللاعب",
+      Icon = "user",
+      Desc = "قسم تعديل اللاعب"
     }),
     StatsTab = Window:Tab({
-        Title = "Stats",
-        Icon = "sliders-horizontal",
-        Desc = "Stats Section"
+      Title = "الستاتس",
+      Icon = "sliders-horizontal",
+      Desc = "قسم الستاتس والترقية"
     }),
     SeaDivider = Window:Divider(),
     SeaEventTab = Window:Tab({
-        Title = "Sea Event",
-        Icon = "anchor",
-        Desc = "Sea Event Section"
+       Title = "إيفنتات البحر",
+      Icon = "anchor",
+      Desc = "قسم الإيفنتات البحرية"
     }),
     SeaStackTab = Window:Tab({
-        Title = "Sea Stack",
-        Icon = "waves",
-        Desc = "Sea Stack Section"
+      Title = "ستاك البحر",
+      Icon = "waves",
+      Desc = "قسم الستاك في البحر"
     }),
     SeaSettingsTab = Window:Tab({
-        Title = "Sea Settings",
-        Icon = "cog",
-        Desc = "Sea Settings Section"
+      Title = "إعدادات البحر",
+      Icon = "cog",
+      Desc = "قسم إعدادات البحر يا وحش"
     }),
     AutoDivider = Window:Divider(),
     DragonDojoTab = Window:Tab({
@@ -108,51 +108,51 @@ local Tabs = {
         Desc = "Dragon Dojo Section"
     }),
     RaceTab = Window:Tab({
-        Title = "Race V4",
-        Icon = "bot",
-        Desc = "Race Section"
+      Title = "ريس V4",
+      Icon = "bot",
+      Desc = "قسم الريس وتفعيل V4"
     }),
     CombatDivider = Window:Divider(),
     CombatTab = Window:Tab({
-        Title = "Combat",
-        Icon = "sword",
-        Desc = "Combat Section"
+      Title = "القتال",
+      Icon = "sword",
+      Desc = "قسم القتال والفاست أتاك"
     }),
     RaidTab = Window:Tab({
-        Title = "Raid",
-        Icon = "door-open",
-        Desc = "Raid Section"
+      Title = "الرايد",
+      Icon = "door-open",
+      Desc = "قسم الرايد والأوتو رايد"
     }),
     EspTab = Window:Tab({
-        Title = "Esp",
-        Icon = "eye",
-        Desc = "Esp Section"
+      Title = "الـ ESP",
+      Icon = "eye",
+      Desc = "قسم الـ ESP والكشف عن اللاعبين والفواكه"
     }),
     TeleportTab = Window:Tab({
-        Title = "Teleport",
-        Icon = "map-pinned",
-        Desc = "Teleport Section"
+      Title = "تليبورت",
+      Icon = "map-pinned",
+      Desc = "قسم التليبورت يا وحش"
     }),
     ShopTab = Window:Tab({
-        Title = "Shop",
-        Icon = "shopping-cart",
-        Desc = "Shop Section"
+      Title = "المتجر",
+      Icon = "shopping-cart",
+      Desc = "قسم المتجر"
     }),
     FruitTab = Window:Tab({
-        Title = "Fruit",
-        Icon = "apple",
-        Desc = "Fruit Section"
+      Title = "الفواكه",
+      Icon = "apple",
+      Desc = "قسم الفواكه"
     }),
     MiscDivider = Window:Divider(),
     MiscTab = Window:Tab({
-        Title = "Misc",
-        Icon = "layout-grid",
-        Desc = "Misc Section"
+      Title = "متفرقات",
+      Icon = "layout-grid",
+      Desc = "قسم الإضافيات والأدوات التانية"
     }),
     ServerTab = Window:Tab({
-        Title = "Server",
-        Icon = "server",
-        Desc = "Server Section"
+      Title = "السيرفر",
+      Icon = "server",
+      Desc = "قسم تغيير السيرفر والريجوين"
     })
 };
 Window:SelectTab(1);
