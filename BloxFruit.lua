@@ -158,7 +158,7 @@ local Tabs = {
 Window:SelectTab(1);
 _G.Settings = {
     Main = {
-        ["Select Weapon"] = "Melee",
+        ["اختار السلاح"] = "Melee",
         ["Farm Level Method"] = "Quest",
         ["Auto Farm"] = false,
         ["Auto Fast Farm"] = false,
