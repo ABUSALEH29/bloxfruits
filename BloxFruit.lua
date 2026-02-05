@@ -158,9 +158,9 @@ local Tabs = {
 Window:SelectTab(1);
 _G.Settings = {
     Main = {
-        ["اختار السلاح"] = "Melee",
+        ["Select Weapon"] = "Melee",
         ["Farm Level Method"] = "Quest",
-        ["فارم لفل"] = false,
+        ["Auto Farm"] = false,
         ["Auto Fast Farm"] = false,
         ["Mastery Method"] = "Quest",
         ["Auto Farm Fruit Mastery"] = false,
@@ -2489,7 +2489,7 @@ LevelFarmSection = Tabs.MainTab:Section({
 });
 local WeaponList = {"Melee", "Sword", "Fruit"};
 ChooseWeaponDropdown = Tabs.MainTab:Dropdown({
-    Title = "Choose Weapon",
+    Title = "اختار السلاح",
     Values = WeaponList,
     Value = _G.Settings.Main["Select Weapon"],
     Callback = function(option)
