@@ -173,7 +173,7 @@ _G.Settings = {
         ["Auto Farm Mon"] = false,
         ["Selected Boss"] = nil,
         ["Auto Farm Boss"] = false,
-        ["Auto Farm All Boss"] = false
+        ["فارم كل البوسات"] = false
     },
     Event = {},
     Farm = {
